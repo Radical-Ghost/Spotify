@@ -1,2 +1,2 @@
-#My take on a Spotify Clone.
-#just run the html file.
+My take on a Spotify Clone. 
+Just run the html file.
