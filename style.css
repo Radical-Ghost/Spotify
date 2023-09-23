@@ -89,9 +89,9 @@ nav ul li {
 	flex-direction: column;
 }
 
-.pb {
-	color: var(--m-c);
+#progressBar {
 	min-width: 80vw;
+	border-radius: 7px;
 }
 
 .icons {
@@ -107,7 +107,7 @@ nav ul li {
 	cursor: pointer;
 }
 
-.songitem {
+.songItem {
 	height: 30px;
 	width: 100%;
 	display: flex;
@@ -117,33 +117,34 @@ nav ul li {
 }
 
 .h {
-	padding-top: 15px;
+	padding-bottom: 15px;
+	margin: 22px;
 	font-weight: bolder;
 	font-size: 25px;
 }
 
-.songitem img {
+.songItem img {
 	height: 30px;
 	position: absolute;
 	left: 5%;
 }
 
-.songitem .name {
+.name {
 	position: absolute;
 	left: 10%;
 }
 
-.songitem .aut {
+.aut {
 	position: absolute;
 	left: 27%;
 }
 
-.songitem .dur {
+.dur {
 	position: absolute;
 	left: 45%;
 }
 
-.songitem i {
+.songItem i {
 	right: 0;
 	position: absolute;
 	right: 45%;
